@@ -21,12 +21,14 @@ if usernameinput == "Doge" and passwordinput == "wow":
         print("M4A1   x", weaponNeedM4, "2500THB")
         print("------------------")
         print("Total", weaponNeedM4*2500, "THB")
-    else:
+    elif userSelected == 3:
         weaponNeedRPG = int(input("Number of weapon needed ::"))
         print(":: Doge Weapon :: ")
         print("------------------")
         print("RPG   x", weaponNeedRPG, "3000THB")
         print("------------------")
         print("Total", weaponNeedRPG*3500, "THB")
+    else:
+        print("Error select")
 else:
     print("Username or Password is incorrect ")
