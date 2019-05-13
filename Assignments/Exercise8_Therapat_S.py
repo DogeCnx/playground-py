@@ -6,6 +6,7 @@ if usernameinput == "Doge" and passwordinput == "wow":
     print("1 AK-47 x1  1000 THB")
     print("2 M4A1  x1  2500 THB")
     print("3 RPG-7 x1  3000 THB")
+    print("4 AR-15 x4  6000 THB")
     userSelected = int(input(">>"))
     if userSelected == 1:
         weaponNeedAK = int(input("Number of weapon needed ::"))
@@ -28,6 +29,13 @@ if usernameinput == "Doge" and passwordinput == "wow":
         print("RPG   x", weaponNeedRPG, "3000THB")
         print("------------------")
         print("Total", weaponNeedRPG*3500, "THB")
+    elif userSelected == 4:
+        weaponNeedAR = int(input("Number of weapon needed ::"))
+        print(":: Doge Weapon ::")
+        print("------------------")
+        print("M4A1   x", weaponNeedAR, "6000THB")
+        print("------------------")
+        print("Total", weaponNeedAR *6000, "THB")
     else:
         print("Error select")
 else:
